@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Montserrat', sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100vw;
+    height: 90px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-header{
+    width: 60px;
+    height: 55.52px;
+    align-self:center;
+    justify-content: center;
+}
+
+nav{
+    width: 670px;
+    height: 22px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #202124;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 133px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.container-consultas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 80vw;
+    height: 85vh;
+    border: 1px solid #3070D6;
+    background-color: #202124;
+    margin-left: 161px;
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+
+.linha{
+    border: 1px solid #000000;
+    transform: rotate(90deg); 
+    width: 59px;
+    height: 0px;
+    color:#000000;
+}
+
+.c1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: #1D826E;
+    width: 75vw;
+    height: 11vh;
+}
+
+.c2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: #1D826E;
+    width: 75vw;
+    height: 11vh;
+}
+
+.c3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: #1D826E;
+    width: 75vw;
+    height: 11vh;
+}
+
+.c4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: #1D826E;
+    width: 75vw;
+    height: 11vh;
+}
+
+.c5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: #1D826E;
+    width: 75vw;
+    height: 11vh;
+}
+
+.conteudo-consulta{
+    width: 75vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
