@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Montserrat', sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100vw;
+    height: 90px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-header{
+    width: 60px;
+    height: 55.52px;
+    align-self:center;
+    justify-content: center;
+}
+
+nav{
+    width: 670px;
+    height: 22px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #202124;
+}
+
+.prontuario{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 80vw;
+    height: 50vh;
+    border: 1px solid #3070D6;
+    background-color: #202124;
+    margin-left: 161px;
+    margin-top:100px;
+}
+
+.lapis{
+    display: flex;
+    align-self: flex-end;
+    margin-left: 900px
+}
+.prontuario h1{
+    display: flex;
+    align-self: center;
+    padding-top:20px;
+}
+
+.container-prontuario{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    margin: 15px;
+}
+
+.situacao{
+    display: flex;
+    flex-direction: row;
+}
+
+.situacao p{
+    margin-right: 34px;
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+label{
+    margin-right: 10px;
+}
+

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ProntuarioAdm.css">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <title>Prontuario - SP Medical Group</title>
+</head>
+
+<body>
+    <header>
+
+        <!-- Logo do header -->
+        <a href="http://"><img class="logo-header" src="assets/logo.png"></a>
+
+        <!-- Links do header -->
+        <nav>
+            <a href="http://">Consultas</a>
+            <a href="http://">Filiais</a>
+            <a href="http://">Sobre Nós</a>
+            <a href="http://">Doações</a>
+        </nav>
+
+        <!-- Foto de perfil -->
+        <img src="" alt="">
+
+    </header>
+
+    <main>
+
+        <!-- Prontuario -->
+        <section class="prontuario">
+            <img class="lapis" src="assets/lapis da edicao.png">
+            <h1>Prontuario</h1>
+
+            <div class="container-prontuario">
+
+                <!-- Situação da consulta -->
+                <div class="situacao">
+
+                    <p>Situação da consulta:</p>
+                    <form class="situacao_consulta">
+
+                        <input type="radio" name="situacao" value="realizada">
+                        <label for="realizada">Realizada</label>
+
+                        <input type="radio" name="situacao" value="cancelada">
+                        <label for="cancelada">Cancelada</label>
+
+                        <input type="radio" name="situacao" value="agendada">
+                        <label for="agendada">Agendada</label>
+
+                    </form>
+                </div>
+
+                <!-- Nome -->
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input class="nome" type="text">
+                </div>
+                
+                <!-- C.P.F. -->
+                <div>
+                    <label for="cpf">C.P.F.:</label>
+                    <input class="cpf" type="number">
+                </div>
+
+                <!-- R.G. -->
+                <div>
+                    <label for="rg">R.G.:</label>
+                    <input class="rg" type="text">
+                </div>
+
+                <!-- Endereço -->
+                <div>
+                    <label for="endereco">Endereço:</label>
+                    <input class="endereço" type="text">
+                </div>
+
+                <!-- Telefone -->
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input class="telefone" type="tel">
+                </div>
+
+                <!-- Data de nascimento -->
+                <div>
+                    <label for="dataNasc">Data de nascimento:</label>
+                    <input type="date" id="dataNasc" name="dataNasc" min="1899-01-01" max="2021-11-20">
+                </div>
+
+                <!-- Descrição -->
+                <div>
+                    <label for="descricao">Descrição:</label>
+                    <input type="text" name="descricao" readonly>
+                </div>
+                
+                <button type="submit">Salvar alterações</button>
+            </div>
+
+        </section>
+
+        <div>
+            <img src="assets/img prontuario 1.png">
+            <img src="assets/img prontuario 2.png">
+        </div>
+
+    </main>
+</body>
+
+</html>
